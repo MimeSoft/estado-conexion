@@ -1,0 +1,27 @@
+.container_conexion {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+    padding: .5rem 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.online {
+    box-shadow: 0 4px 8px green;
+    color: green;
+}
+
+.offline {
+    box-shadow: 0 4px 8px red;
+    color: red;
+}
